@@ -1,0 +1,23 @@
+{
+    "name": "margarito/app-salon",
+    "description": "Proyecto php 8, MVC, SQL, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4":{
+            "MVC\\": "./",
+            "Controllers\\":"./controllers",
+            "Model\\":"./models",
+            "Classes\\": "./class"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Margarito valdez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
